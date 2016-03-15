@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/luzern_naturallandmarks_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/explore_bg_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/luzerne_main_img" />
+
+            <TextView
+                android:id="@+id/action_bar_shadow_explore_landmarks"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@drawable/a_shadow" />
+            
+            <Button
+                android:id="@+id/explore_luzern_btn_basic_landmarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/explore_bg_image"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/explore_luzern_btn_basic_bg_xml"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:onClick="openDefault" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+            <ImageView
+                android:id="@+id/luzern_naturallandmarks_lakeoflucerne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/luzern_naturallandmarks_img_a" />
+
+            <TextView
+                android:id="@+id/explore_lu_landmarks_title_lake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/explore_luzern_landmarks_title_lake"
+                android:textColor="@color/RedExplore"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/explore_luzern_landmarks_text_lake"
+                android:textColor="@color/gray" />
+            
+            <ImageView
+                android:id="@+id/luzern_naturallandmarks_reussriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/luzern_naturallandmarks_img_b" />
+
+            <TextView
+                android:id="@+id/explore_lu_landmarks_title_reuss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/explore_luzern_landmarks_title_reuss"
+                android:textColor="@color/RedExplore"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/explore_luzern_landmarks_text_reuss"
+                android:textColor="@color/gray" />
+            
+            <ImageView
+                android:id="@+id/luzern_naturallandmarks_mountpilatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/luzern_naturallandmarks_img_c" />
+
+            <TextView
+                android:id="@+id/explore_lu_landmarks_title_pilatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/explore_luzern_landmarks_title_pilatus"
+                android:textColor="@color/RedExplore"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/explore_luzern_landmarks_text_pilatus"
+                android:textColor="@color/gray" />
+            </LinearLayout>
+            
+            </LinearLayout>
+            
+            </ScrollView>
+

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_a"
+        android:textColor="@color/gray"
+        android:paddingTop="5dp" />
+
+    <ImageView 
+        android:id="@+id/about_photo_basel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_basel"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_basel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_basel"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_bellinzona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_bellinzona"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_bellinzona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_bellinzona"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_chur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_chur"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_chur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_chur"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_bern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_bern"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_bern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_bern"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_geneva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_geneva"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_geneva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_geneva"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_interlaken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_interlaken"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_interlaken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_interlaken"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_lausanne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_lausanne"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_lausanne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_lausanne"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_luzern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_luzern"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_luzern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_luzern"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_lugano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_lugano"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_lugano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_lugano"
+        android:textColor="@color/gray"
+         />
+    
+    
+    <ImageView 
+        android:id="@+id/about_photo_stgallen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_stgallen"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_stgallen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_stgallen"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_zurich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_zurich"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_zurich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_dialects_zurich"
+        android:textColor="@color/gray"
+         />
+    
+    
+</LinearLayout>

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Explore Switzerland</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Search destination</string>
+    <string name="title_section4">Symbols of Switzerland</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="hint_search"><i>Search destination</i></string>
+    <string name="title_activity_tab_proba">TabProbaActivity</string>
+    <string name="tab_symbols_of_switzerland">Symbols of Switzerland</string>
+    <string name="tab_about_switzerland">About Switzerland</string>
+    <string name="tab_explore_cantons_a">Explore</string>
+    <string name="tab_explore_cantons_b">cantons</string>
+    <string name="title_activity_tab_layout">Tab Layout Activity</string>
+    <string name="title_my_tab_factory">My tab factory</string>
+    <string name="title_explore_fragment">Explore Fragment</string>
+    <string name="title_about_fragment">About fragment</string>
+    <string name="title_symbols_fragment">Symbols fragment</string>
+    <string name="title_my_sample_fragment">My sample fragment</string>
+    <string name="title_my_page_adapter">My page adapter</string>
+    <string name="title_activity_cantons_luzern">CantonsLuzern</string>
+    <string name="about_text_bg"><b>Switzerland</b> (German: Schweiz, French: Suisse, Italian: Svizzera, Romansch: Svizra, Latin: Confoederatio Helvetica) is a landlocked country in Central Europe. It has borders with France to the west, Italy to the south, Austria and Liechtenstein to the east and Germany to the north.</string>
+    <string name="about_climate_title">CLIMATE</string>
+    <string name="about_text_climate">The climate is temperate, but varies with altitude. Switzerland has cold, cloudy, rainy/snowy winters and cool to warm, cloudy, humid summers with occasional showers.</string>
+    <string name="about_politics_title">POLITICS</string>
+    <string name="about_text_politics">Switzerland\'s independence and neutrality have long been honored by the major European powers and Switzerland was not involved in either of the two World Wars. The political and economic integration of Europe over the past half century, as well as Switzerland\'s role in many UN and international organizations has strengthened Switzerland\'s ties with its neighbors. However, the country did not officially become a UN member until 2002. Switzerland remains active in many UN and international organizations, but retains a strong commitment to neutrality.</string>
+    <string name="about_culture_title">CULTURE</string>
+    <string name="about_text_culture">Switzerland showcases three of Europe\'s most distinct cultures. To the northeast is the clean and correct, 8-to-5-working, stiffer Swiss-German-speaking Switzerland; to the southwest you find the wine drinking and laissez-faire style known from the French; in the southeast, south of Alps, the sun warms cappuccino-sippers loitering in Italian-style piazzas; and in the center: classic Swiss alphorns and mountain landscapes. Binding it all together is a distinct Swiss mentality.</string>
+    <string name="about_economy_title">ECONOMY</string>
+    <string name="about_text_economy"></string>
+    <string name="about_dialects_title">DIALECTS &#38; CITIES</string>
+    <string name="about_text_dialects_a">Remark: All Swiss cities, villages, regions, 
+or whatever geographical object do have 
+official spellings in all four national 
+languages; sometimes they are just the 
+same. However, major cities and touristic 
+regions also know official English spellings. 
+Nevertheless, only a few years ago, the 
+official Swiss tourism office started to 
+advertise major spots and cities with their 
+original, local spelling; with some 
+exceptions of course, such as Geneva and 
+Zurich for example. Obviously, it was too 
+disturbing for anglo-saxon tourists to 
+remember all the different spellings. But 
+their real spellings are really important to 
+the locals and helpful to know as a tourist 
+of the respective region. So therefore, the 
+following list will present you the 
+advertised spelling first, followed with its 
+local spelling, if different, then its English 
+version, if different, and its other national 
+spellings.
+You could even enlarge this lists with other 
+different, but hardly anymore used or even 
+outdated spellings in other national 
+languages (e.g. Bellinzona used to be 
+spelled Bellenz in German or Bellence in
+ French, or even more oudated: Lugano 
+was known as Lauis in German). And this 
+can even get escalated if you would want to 
+refer to the different spellings of the 
+different dialects in the different national 
+language regions of Switzerland: the many 
+21+ Swiss-German dialects, the four 
+Romansh dialects, the Franco-Provençal 
+from the French speaking Switzerland, or 
+the Lombard in Ticino.
+And how to speak them is even another 
+issue, since even if they are written the 
+same, they are quite often not spoken the 
+same way in the different 
+languages/dialects, of course.</string>
+    <string name="about_text_dialects_basel">Basel (ger ; eng: Basle (somehow outdated, however still used in the English press); fre: Bâle; ita/roh: Basilea) — the traveller\'s gateway to the German Rhineland and French Alsace with an exceptional medieval downtown at the knee of the Rhine river; excellent museums (~40) and art\'s mecca during ART BASEL, world\'s largest art fair; also famous for its huge and contemplating carnival around February (Basler Fasnacht); German-speaking world wide renowned theatre (including opera and ballet).</string>
+    <string name="about_text_dialects_bellinzona">Bellinzona (ita/eng/ger/roh ; fre: 
+Bellinzone) — renowned for its medieval 
+castles, world UNESCO heritage, pretty 
+center and capital of the canton of Ticino, 
+overlooking one of the few flat rural areas 
+of Switzerland towards Lake Maggiore.</string>
+    <string name="about_text_dialects_chur">Chur (ger ; roh: Cuira; eng/fre: Coire; ita: 
+Coira) — capital of the canton of Grisons 
+(ger: Kanton Graubünden; roh: Chantun 
+Grischun; ita: Cantone dei Grigioni), the 
+only trilingual Swiss canton, in the 
+east-south of Switzerland, dates back 
+almost 4000 years; lovely old town; gate to 
+several glitzy ski and hiking resorts, such 
+as St. Moritz, Davos, Arosa, Lenzerheide, 
+Flims/Laax and many more; major hub to 
+the Glacier Express and the Bernina Express.</string>
+    <string name="about_text_dialects_bern">Bern (ger ; eng/fre: Berne; ita/roh: Berna) — 
+capital of Switzerland at the shores of the 
+cristal-clear green-blue Aare river with an 
+amazingly well preserved old-town with 
+arcades along almost every street; great 
+restaurants abound, as do bars and clubs.</string>
+    <string name="about_text_dialects_geneva">Geneva (eng ; fre: Genève; ger: Genf; ita: 
+Ginevra; roh: Genevra) — this centre of arts 
+and culture is an international city that is 
+home to around 200 governmental and 
+non-governmental organizations (with 
+some major UN organizations) at the end o
+f Lake Geneva (Lac Léman flows into the 
+river Rhône), founding place of Calvinism 
+and THE Red Cross (ICRC); almost every 
+second inhabitant is a foreigner.</string>
+    <string name="about_text_dialects_interlaken">Interlaken (ger/eng/fre/ita/roh) — the 
+outdoor and action sports capital of 
+Switzerland; anything from skydiving, 
+bungee jumping, hiking, white-water 
+rafting, to canyoning; between the two lakes 
+Brienz and Thun; starting point for many, 
+many tourists for excursions into the 
+Bernese Alps.</string>
+    <string name="about_text_dialects_lausanne">Lausanne (fre/eng/ger ; ita/roh: Losanna) 
+— scenery, dining, dancing, boating and the 
+Swiss wine-country are the draws at the 
+shores of the great Lake Geneva (Lac 
+Léman) with a view of Swiss and French 
+Alps; world-wide renowned for its Béjart 
+Ballet Lausanne.</string>
+    <string name="about_text_dialects_luzern">Luzern (ger ; eng/fre: Lucerne; ita/roh: 
+Lucerna) — main medievial city of the 
+Central region with direct water links to all 
+of the early Swiss historic sights at the end 
+of the many branched lake Lucerne 
+(Vierwaldstättersee ends into the river 
+Reuss) along of many steep mountains; 
+also famous for its tremendous and ethnic 
+carnival (Lozärner Fasnacht) around 
+February; host of the world-renowned 
+Lucerne Festivals, a classical summer music 
+festival in the Culture and Congress Centre 
+(KKL) designed by Jean Nouvel; starting 
+point for many excursions into the Alps.</string>
+    <string name="about_text_dialects_lugano">Lugano (ita/eng/ger/fre/roh) — a bustling 
+old-town in Italian-spoken Switzerland, at 
+the southern end of the Alps with a 
+Mediterranean climate at the pretty lake of 
+Lugano in the middle of forested 
+mountains; much Italianata combined with 
+Swiss seriousness.</string>
+    <string name="about_text_dialects_stgallen">St. Gallen (ger (also: Sankt Gallen); eng: 
+St. Gall; fre: Saint-Gall; ita: San Gallo; roh: 
+Son Gagl) — main city of north-eastern 
+Switzerland, renowned for its Abbey of 
+St. Gall, a UNESCO World Heritage Site and 
+its library contains books which date back 
+to the 9th century, it also functions as the 
+gate to the very exclusive Appenzell region.</string>
+    <string name="about_text_dialects_zurich">Zurich (eng/fre; ger: Zürich; ita: Zurigo; 
+roh: Turitg) — largest city of Switzerland at 
+the end of Lake Zurich (ends into the river 
+Limmat), a major centre of international 
+banking and national major companies and 
+media; great culture &#38; arts possibilities; 
+more than 50 museums and around 100 
+galleries; great restaurants (more than 
+1500) and bars (more than 500); excellent 
+cinema selection (~60 show rooms); has a 
+thriving nightlife (~80 clubs on weekends); 
+host of the largest European party rave 
+Street Parade in August with almost 
+1 million visitors every year; renowned 
+opera, excellent theatre; host of the 
+renowned theatre festival Zürcher Theater 
+Spektakel during August; every third 
+inhabitant is a foreigner.</string>
+    <string name="about_mustsee_title">MUST SEE</string>
+    <string name="about_text_mustsee_grindewald">Grindelwald — the classic resort at the foot 
+of the Eiger</string>
+    <string name="about_text_mustsee_spiez">Spiez — a picture postcard town with the 
+loveliest bay of Europe</string>
+    <string name="about_text_mustsee_rhine">Rhine Falls — the largest falls of Europe, 
+close to Schaffhausen</string>
+    <string name="about_text_mustsee_zermatt">Zermatt — famous mountain resort at the 
+base of the mighty Matterhorn</string>
+    <string name="title_activity_explore_luzern">Lucerne</string>
+    <string name="symbols_title_swisscross">SWISS CROSS</string>
+    <string name="symbols_text_swisscross">The Swiss Cross, as it is often called by the 
+native population, is a generalization of the coat of arms of canton Schwyz, one of the 
+three founding members of the Swiss confederation back in 1291.
+\n
+\n
+Schwyz apparently played a leading role in the early days, so its name soon was being 
+used for the confederacy as a whole. When 
+the old Swiss went to battles, the soldiers of each federal state had their own style of 
+clothing and carried their own cantonal banner with them. As the confederation 
+grew, they needed a common symbol to recognize friend from foe and applied white 
+stripes in the form of a cross on their clothes and helmets.
+\n \n
+
+During the middle ages, Switzerland was first part of Charlemagne\'s great continental 
+European empire (around A.D. 800). His 
+sons split the empire in three parts, the eastern part (including Italy, the Alps and 
+Germany) was called Holy Roman Empire of German Nation.
+\n
+\n
+When the German emperor once went to
+Italy around 1230, soldiers from Schwyz accompanied him. It is reported that he was 
+very pleased about the support they gave him and granted them the privilege to add 
+a white cross to their red banner.
+\n \n 
+An old legend says that one of the last
+Roman emperors, Constantin, used a banner with a cross symbol when he 
+defeated his rival Maxentius in 312. It is very likely that the cross symbol was taken 
+over by Charlemagne and his successors as a sign of their leadership over the \"Christian continent\"</string>
+    <string name="symbols_title_flag">Who founded Switzerland\’s National flag?</string>
+    <string name="symbols_text_flag">If you go right back to the very origins of 
+Swiss troops using the white cross on red banners, this was a privilege granted by 
+German emperor Friedrich II, so you would suggest that he \"founded\" the Swiss flag.
+But if you are asking for the person who convinced a majority of Swiss politicians to 
+use a common national flag instead of a 
+variety of cantonal banners in 1840, when the white cross on a red square emblem 
+was officially introduced as the Swiss army flag, this was Guillaume Henri Dufour, who 
+later became general of the federal troops in the short Sonderbundskrieg (civil war) in 
+1847 and co-founder of the International 
+Committee of the Red Cross in 1864. Of course, it was also Guillaume Henri Dufour 
+who proposed the red cross on white ground as the emblem and name for the 
+Red Cross.
+\n \n
+
+Considering the origins of Switzerland\'s flag 
+one should say that the white cross on a red square background symbolizes nothing 
+more than just being part of the (once) \"Christian Occident\".
+\n \n
+The introduction of a tricolor in 1798 and 
+the name Helvetic Republic by the Swiss Revolution symbolized that the dominance 
+of the old members of the Swiss confederation was broken. The abolition of 
+both tricolor and helvetic name and the restauration of cantonal flags inevitably 
+marked the return to power of conservative 
+anti-centralistic forces in 1815.
+\n \n
+
+
+Discussing the introduction of a common 
+national flag in the 1830\'s was part of the process leading to a federal state (instead 
+of a loose confederacy). It was certainly more than mere coincidence that the very 
+same man, general Guillaume Henri Dufour, who advocated the use of the white cross on red background as Switzerland\'s national 
+flag, was the one who, as commander of the federal troops, decided the civil war in 
+favour of national unity. (The civil war had been unleashed by conservative 
+\"cantonalists\".)
+\n \n
+
+
+On the other hand, using the old cross 
+symbol and colors referring to canton Schwyz in the heart of conservative central 
+Switzerland instead of the Helvetic tricolor flag referring to the centralist Helvetic 
+Republic of 1798 marks a compromise: a political development leading to more centralism than the conservatives wanted 
+was being symbolized with a major symbol of the conservatives instead of using a 
+liberal symbol. Quite clever - one of the thousands of compromise solutions that 
+have guaranteed Switzerland\'s famous and all but evident political stability as a 
+federal nation composed of four different 
+ethnic/language based regional cultures.
+\n \n
+
+
+To sum it up: For the Swiss, the 
+introduction of Switzerland\'s national flag in 1840 and its widespread use 
+instead of the cantonal flags symbolizes first and foremost that Switzerland has 
+found its national identity and that the 
+national identity has become more important than the disparate cantonal 
+identities that have dominated Switzerland\'s history from 1291 (Federal Charter) to 1848 (modern Federal 
+Constitution).</string>
+    <string name="symbols_title_alphorn">ALP HORN</string>
+    <string name="symbols_text_alphorn">With the passing of time, the alphorn almost
+ totally disappeared as an instrument used by Swiss shepherds. It was only with the 
+romanticism of the 19th century and the revival of folklore and tourism that the 
+alphorn experienced a renaissance and even became a national symbol.</string>
+    <string name="symbols_title_dog">ST. BERNARD DOG</string>
+    <string name="symbols_text_dog">The Saint Bernard dog is a special symbol of 
+Switzerland. Everyone knows that the large and good-natured Barry saved the lives of 
+lost mountaineers. The four-legged hero has always been bred at the Alpine Pass of 
+Great Saint Bernhard.</string>
+    <string name="symbols_title_chocolate">CHOCOLATE</string>
+    <string name="symbols_text_chocolate">During the more than 400 years since 
+Columbus became the first European to see cocoa beans, Switzerland has come to the 
+forefront of chocolate manufacturing worldwide. Swiss chocolatiers have created 
+such delights as truffles, pralines, cakes, and mousses (enough to make a Swiss child 
+forget about the bread ) … Swiss chocolate 
+is great on its own, or with an espresso, a sweet wine, whisky or a Cognac, and on 
+any conceivable occasion.</string>
+    <string name="symbols_title_absinth">ABSINTH</string>
+    <string name="symbols_text_absinth">The production of Absinthe – also called 
+\“Green Fairy\” was prohibited for over 90 years. Since 2005 the mythical liquor, which 
+is based on the distillation of various plants and herbs, can again be legally consumed.
+This liquor with its tasty bitterness originated in the Val de Travers. Absinthe 
+was first distilled in the 18th century in the 
+Val de Travers as a medicinal elixir from wormwood, aniseed, fennel and other 
+herbs; today it is popular once again, even used to flavour chocolates and pastries. </string>
+    <string name="symbols_title_watchmaking">WATCHMAKING</string>
+    <string name="symbols_text_watchmaking">For centuries, Switzerland has been 
+world-renowned for its watches. This was not always the case: When mechanical 
+timekeeping started back in the 14th century, Switzerland lagged far behind the 
+times.
+\n \n
+Watchmaking only began in Switzerland after the Huguenot refugees brought the manufacture of portable timepieces to 
+Geneva in the second half of the 16th century. At that time, Geneva, the city of 
+Calvin, was a veritable boom town.</string>
+    <string name="symbols_title_knife">SWISS ARMY KNIFE</string>
+    <string name="symbols_text_knife">The manufacturer from the Swiss Knife 
+Valley knows that functionality and usefulness alone are not sufficient to 
+appeal to the emotions of the consumer. Only good design which gives an aesthetic 
+voice to the intelligent function endows 
+products with an unmistakable identity which turns satisfied customers into loyal 
+customers.
+\n \n
+ In 1884, the original knife workshop was 
+established by Karl and Victoria Elsener and the first delivery of knives to the Swiss Army 
+was made in 1891. When Karl Elsener created the "Original Swiss Army Knife" in 
+1897, he could never have imagined that this would become the symbol for quality, 
+functionality and Swiss inventive talent all over the world. Nowadays, the "Swiss Army 
+Knife" enjoys international protection and, 
+more than any other product, stands for the world-famous "Swiss Made" label of quality.</string>
+    <string name="explore_luzern_text_default">The Canton of Lucerne (German: Luzern) is 
+located in the centre of Switzerland. 
+The cantonal capital is Lucerne. 
+\n \n
+In this wonderful city you can take a look at 
+the beautiful lake of Lucerne surrounded by 
+mythical mountains. Enjoy the sight of 
+well-preserved medieval Altstadt (Old 
+Town). This city has a reputation for making 
+beautiful music. It\’s covered with bridges, 
+sunny plazas, candy-coloured houses and 
+waterfront promenades.</string>
+    <string name="explore_luzern_title_pilatus">HIKING ON MOUNT PILATUS</string>
+    <string name="explore_luzern_text_pilatus">Mount Pilatus assures the best panoramic 
+view of Lucerne on a clear day. The visit to 
+Mt. Pilatus is a real excitement. 
+The cogwheel rail takes off from the base 
+of the mountain and travels through the 
+most unique railway track. The railway 
+goes through the mountains, ice, tunnels 
+and lot more eye catchy places and finally 
+leads you to the peak. Areal cableways and 
+gondolas are also available for the trip. 
+Hiking and toboggan sledging are offered 
+for the visitors here. Some restaurant 
+terrace view of Mt. Pilatus is also amazing.</string>
+    <string name="explore_luzern_title_rigi">HIKING ON MOUNT RIGI</string>
+    <string name="explore_luzern_text_rigi">Mount Rigi is named as \“Queen of the 
+Mountains\”, and this is obviously for 
+reasons. This is not only a high mountain 
+but also a place closest to heavenly nature. 
+There are a lot of interesting and exciting 
+stuffs you can do there. Few of them are 
+sledging or skiing in winter and in summer 
+time- hiking. Mt. Rigi authority has made 
+the place far more exciting by providing 
+some services like sunrise ride and dinner 
+in cable car, sleigh rides drawn by horse, 
+nostalgic steam show and so on. 
+Furthermore, events like wrestling 
+competition and musical show are organized 
+in an occasional basis.</string>
+    <string name="explore_history_title">HISTORY</string>
+    <string name="explore_culture_title">CULTURE LANDMARKS</string>
+    <string name="explore_luzern_history_text_history">Lucerne grew up around a Benedictine 
+monastery, founded about 750 on the right 
+bank of the Reuss by Murbach Abbey in 
+Alsace, of which it long remained a \"cell\". It 
+is first mentioned in a charter of 840 under 
+the name of Luciaria, which is probably 
+derived from the patron saint of the 
+monastery, St Leodegar. The name Lucerrun 
+is first mentioned in 1252. At some point, 
+a small village grew up around the 
+monastery. The first signs of a municipal 
+constitution appear in 1252.
+\n \n
+With the growing power of the Habsburgs in 
+the area the ties that bound Lucerne to 
+Murbach weakened. In 1291 the Habsburgs 
+finally purchased Lucerne from Murbach. 
+The purchase of Lucerne by the Habsburgs 
+drove the three forest cantons (Uri, Schwyz 
+and Unterwalden) to form an Eternal 
+Alliance, an act that is considered to be the 
+foundation of Switzerland. In 1332 Lucerne 
+became the fourth member of the 
+Eidgenossen or Swiss Confederation, and 
+the first town to join the rural forest 
+cantons.
+\n \n
+The Battle of Sempach solidified Lucerne\'s
+place in the Swiss Confederation
+\n \n
+Amstaldenhandel, an event in the history of 
+the canton of Lucerne, Switzerland
+The Battle of Sempach (1386) near Sempach 
+(which while allied wouldn\'t become part of 
+the canton for 8 more years) drove the 
+Habsburgs out of the region and 
+strengthened the Confederation. That 
+victory led also to the gradual acquisition 
+of territory ruled by and from the town.
+\n \n
+Amstalden, a wealthy innkeeper Schüpfheim 
+in the Entlebuch valley of the canton of 
+Lucerne, was the leader of a planned 
+rebellion of the valley against the city of 
+Lucerne. In a plot to limit the power of the 
+city, officials from the neighbouring canton 
+of Obwalden had promised their support. 
+The conspiracy was detected before they 
+could stage the planned coup. On 24 
+August 1478, Amstalden was arrested, 
+tortured and interrogated, and finally 
+beheaded in November 1478.
+\n \n
+The incident furthered the distrust amongst 
+rural and urban cantons in the Old Swiss 
+Confederacy and was one of the reasons for 
+the conclusion of the Stanser Verkommnis 
+(Treaty of Stans) in 1481, an important 
+coalition treaty of the cantons of the Old 
+Swiss Confederacy
+\n \n
+During the Reformation Lucerne remained 
+attached to Roman Catholicism, of which 
+ever since it has been the great stronghold 
+in Switzerland. The papal nuncio resided 
+here from 1601 to 1873. In the 16th 
+century, during the early modern age, the 
+town government fell into the hands of an 
+aristocratic oligarchy, whose power, though 
+shaken by the Swiss peasant war of 1653 in 
+the Entlebuch, lasted till 1798. Under the 
+French-supported Helvetic republic 
+(1798–1803) Lucerne was the seat of the 
+central government. When the republic 
+collapsed, under the Act of Mediation 
+(1803) it was one of the six \"Directorial\" 
+cantons and during the Restoration 
+(from 1815 to 1848) it was one of the three 
+ruling cantons.
+\n \n
+The patrician government was swept away 
+by the cantonal constitution of 1831. But in 
+1841 the Conservatives regained power. 
+They quickly recalled the Jesuits, who had 
+been expelled by earlier radical 
+governments, to head the cantonal school 
+system. The riots that followed brought 
+about the Sonderbund War (1847) in which 
+the Conservatives were defeated, the 
+decisive battle taking place at Gisikon, not 
+far from Lucerne.</string>
+    <string name="explore_luzern_history_title_culture_chapel">CHAPEL BRIDGE</string>
+    <string name="explore_luzern_history_subtitle_culture_chapel">The town\'s landmark</string>
+    <string name="explore_luzern_history_text_culture_chapel">Constructed in first half of the 14th century 
+as a part of the city\'s fortifications and
+named after St. Peter\'s Chapel, which is 
+located nearby.
+\n \n
+The paintings that were added in the 17th 
+century illustrate scenes of Swiss and local 
+history, including the biographies of the 
+city\'s patron saints, St. Leodegar and St. 
+Maurice.</string>
+    <string name="explore_luzern_history_title_culture_tower">WATER TOWER</string>
+    <string name="explore_luzern_history_subtitle_culture_tower">Archive, treasury and prison</string>
+    <string name="explore_luzern_history_text_culture_tower">This octagonal tower - over 34 meters high 
+(111.5 ft.) - was built around 1300 as part 
+of the city wall and used as an archive, 
+treasury, prison and torture chamber.
+\n \n
+It is Lucerne\'s landmark and the most 
+frequently photographed monument in 
+Switzerland.</string>
+    <string name="explore_luzern_history_title_culture_lion">LION MONUMENT</string>
+    <string name="explore_luzern_history_text_culture_lion">Constructed in first half of the 14th century 
+as a part of the city\'s fortifications and
+named after St. Peter\'s Chapel, which is 
+located nearby.
+\n \n
+The paintings that were added in the 17th 
+century illustrate scenes of Swiss and local 
+history, including the biographies of the 
+city\'s patron saints, St. Leodegar and St. 
+Maurice.</string>
+    <string name="explore_luzern_landmarks_title_lake">LAKE OF LUCERNE</string>
+    <string name="explore_luzern_landmarks_text_lake">If you\'re not averse to breathtaking 
+mountain scenery - perhaps a glance or 
+two at a shimmering expanse of water with 
+majestic steep peaks of limestone hunched 
+over the coastline, forests coming down to 
+the shore filled with deer, chamois, foxes, 
+and Alpine-native marmots; and fertile 
+hillsides, meadows and valleys beyond - 
+then this lake won\'t disappoint.</string>
+    <string name="explore_luzern_landmarks_title_reuss">THE REUSS RIVER</string>
+    <string name="explore_luzern_landmarks_text_reuss">At the foot of the Gotthard and Furka Pass 
+several smaller rivers merge and form the 
+Reuss River. At the beginning the river is 
+turbulent: In the Middle Ages, the river 
+impeded the development of the Gotthard 
+Pass in the steep Schöllenen Gorge. Up to 
+the point where it flows into the fjordlike 
+Lake Uri, the Reuss shares the valley with 
+the expressway and the railway line of the 
+Gotthard transit route.</string>
+    <string name="explore_luzern_landmarks_title_pilatus">MOUNT PILATUS</string>
+    <string name="explore_luzern_landmarks_text_pilatus">No mountain in the long northern arc of the 
+Alpine foothills shows such a marked 
+upwards thrust as Mount Pilatus on Lake 
+Lucerne. Its rock consists of cretaceous 
+sediment and Tertiary deposits. 
+The calcerous rocks of Mount Pilatus were 
+formed in the sea which stretched between 
+the Aare and the Gotthard massif. Mussel, 
+oyster, ammonite, echinite and sea snail 
+fossils today discovered in the Mount Pilatus 
+rock provide valuable documentation and 
+evidence of when and where the fairly dense 
+cliffs and fine slate layers of the mountain 
+were created.</string>
+    <string name="explore_luzern_stay_title_lucerne">RENAISSANCE LUCERNE HOTEL</string>
+    <string name="explore_luzern_stay_adress_lucerne">www.marriott.de</string>
+    <string name="explore_luzern_stay_phone_lucerne">+41 41 226 87 87</string>
+    <string name="explore_luzern_stay_title_alpina">HOTEL ALPINA</string>
+    <string name="explore_luzern_stay_adress_alpina">www.alpina-luzern.ch</string>
+    <string name="explore_luzern_stay_textadress_lucerne">Pilatussstrasse 15, Lucerne, Switzerland</string>
+    <string name="explore_luzern_stay_textadress_alpina">Frankenstrasse 6, Lucerne, Switzerland</string>
+    <string name="explore_luzern_stay_phone_alpina">+41 41 210 00 77</string>
+    <string name="explore_luzern_stay_title_hotel">THE HOTEL</string>
+    <string name="explore_luzern_stay_adress_hotel">the-hotel.ch</string>
+    <string name="explore_luzern_stay_textadress_hotel">Sempacherstrasse 14, Lucerne, Switzerland</string>
+    <string name="explore_luzern_stay_phone_hotel">+41 41 226 86 86</string>
+    <string name="explore_luzern_stay_title_cascada">CASCADA SWISS QUALITY HOTEL</string>
+    <string name="explore_luzern_stay_adress_cascada">www.cascada.ch</string>
+    <string name="explore_luzern_stay_textadress_cascada">Bundesplatz 18, Lucerne, Switzerland</string>
+    <string name="explore_luzern_stay_phone_cascada">+41 41 226 80 88</string>
+
+</resources>

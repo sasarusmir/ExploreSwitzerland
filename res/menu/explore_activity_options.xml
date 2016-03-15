@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.exploreswitzerland.exploreswitzerland="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_history"
+          android:icon="@drawable/ic_launcher"
+          android:title="History &#38; Culture"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/action_landmarks"
+          android:icon="@drawable/ic_launcher"
+          android:title="Natural Landmarks"
+          android:showAsAction="withText" />
+    
+    <item android:id="@+id/action_hiking"
+          android:icon="@drawable/ic_launcher"
+          android:title="Hiking Spots"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/action_stay"
+          android:icon="@drawable/ic_launcher"
+          android:title="Where to stay?"
+          android:showAsAction="always" />
+    
+    <!-- Settings, should always be in the overflow -->
+<!--     <item android:id="@+id/action_settings" -->
+<!--           android:title="@string/action_settings" -->
+<!--           android:showAsAction="never" /> -->
+
+</menu>

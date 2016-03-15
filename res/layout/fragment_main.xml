@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    tools:context="com.exploreswitzerland.exploreswitzerland.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/action_bar_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/a_shadow" />
+
+    <Button
+        android:id="@+id/search_monitor_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/symbols_swiss_btn"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/explore_cantons_btn"
+        android:background="@drawable/home_search_monitor_btn"
+        android:onClick="openSearch" />
+
+    <Button
+        android:id="@+id/about_swiss_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/search_monitor_btn"
+        android:layout_below="@+id/search_monitor_btn"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/home_about_swiss_btn"
+        android:onClick="openAbout" />
+
+    <Button
+        android:id="@+id/symbols_swiss_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explore_cantons_btn"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/search_monitor_btn"
+        android:background="@drawable/home_symbols_swiss_btn"
+        android:onClick="openSymbols" />
+
+    <Button
+        android:id="@+id/explore_cantons_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@drawable/home_explore_cantons_btn"
+        android:onClick="openExplore" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

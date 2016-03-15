@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/search_open_explore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="openTab" >
+
+            <TextView
+                android:id="@+id/tab_icon_text_explore_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:drawableTop="@drawable/explore_icn_xml"
+                android:gravity="center"
+                android:text="@string/tab_explore_cantons_a"
+                android:textColor="@color/tab_bar_text" />
+
+            <TextView
+                android:id="@+id/tab_icon_text_explore_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tab_icon_text_explore_a"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-3dp"
+                android:gravity="center"
+                android:text="@string/tab_explore_cantons_b"
+                android:textColor="@color/tab_bar_text" />
+        </RelativeLayout>
+        <!-- 
+        <ImageView 
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:src="@drawable/tab_divider_a"/>
+             -->
+
+        <RelativeLayout
+            android:id="@+id/search_open_about"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="openTab"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/tab_icon_text_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/about_icn_xml"
+                android:gravity="center"
+                android:lines="2"
+                android:text="@string/tab_about_switzerland"
+                android:textColor="@color/tab_bar_text" />
+        </RelativeLayout>
+     <!-- 
+        <ImageView 
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:src="@drawable/tab_divider_a"/>
+             -->   
+
+        <RelativeLayout
+            android:id="@+id/search_open_symbols"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="openTab" >
+
+            <TextView
+                android:id="@+id/tab_icon_text_symbols"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/symbol_icn_xml"
+                android:gravity="center"
+                android:lines="2"
+                android:text="@string/tab_symbols_of_switzerland"
+                android:textColor="@color/tab_bar_text" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+          android:background="@drawable/search_destination_bg"
+         >
+
+        <LinearLayout
+            android:id="@+id/search_edit_window"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/search_box"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/search_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/Transparent"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:id="@+id/search_button_edit_text"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_btn_icn"
+                android:onClick="openSearch" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/ListView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_edit_window" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/action_bar_shadow_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/a_shadow" />
+    </RelativeLayout>
+
+</LinearLayout>

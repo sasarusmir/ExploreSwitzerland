@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView 
+        android:id="@+id/about_photo_grindelwald"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_l"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_grindewald"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_mustsee_grindewald"
+        android:textColor="@color/gray"
+       />
+    
+    <ImageView 
+        android:id="@+id/about_photo_spiez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_m"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_spiez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_mustsee_spiez"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+       android:id="@+id/about_photo_rhinefalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_n"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_rhine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_mustsee_rhine"
+        android:textColor="@color/gray"
+         />
+    
+    <ImageView 
+        android:id="@+id/about_photo_zermatt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_photo_o"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"/>
+    
+    <TextView
+        android:id="@+id/about_text_zermatt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text_mustsee_zermatt"
+        android:textColor="@color/gray"
+         />
+
+</LinearLayout>

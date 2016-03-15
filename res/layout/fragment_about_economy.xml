@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switzerland is a peacful, prosperous, and stable modern market economy with low unemployment, a highly skilled labor force, and a per capita GDP larger than that of the big Western European economies. The Swiss in recent years have brought their economic practices largerly into conformity with the EU's to enhance their international competitiveness. Switzerland remains a safe haven for investors, because it has maintained a degree of bank secrecy and has kept up the franc's long-term external value. Reflecting the anemic economic conditions of Europe, GDP growth dropped in 2001 to about 0.8% to 0.2% in 2002, and to -0.3% in 2003, with a small rise to 1.8% in 2004-05. Even so, unemployment has remained at less than half the EU average."
+        android:textColor="@color/gray"
+        android:paddingTop="5dp" />
+
+</RelativeLayout>

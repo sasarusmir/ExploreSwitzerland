@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+<!--         <item name="android:actionBarTabStyle">@style/ExploreSwitzerland.ActionBar.Tab</item> -->
+<!--         <item name="android:actionBarTabBarStyle">@style/ExploreSwitzerland.ActionBar.TabBar</item> -->
+<!-- 		<item name="android:alignmentMode">alignMargins</item> -->
+<!-- 		<item name="android:actionBarSize">70dip</item> -->
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/a_bar</item>
+        <item name="android:displayOptions">showHome</item>
+        <item name="android:icon">@color/Transparent</item>
+    </style>
+
+<!--     <style name="ExploreSwitzerland.ActionBar.Tab" parent="@style/Widget.AppCompat.ActionBar.TabView"> -->
+<!--         <item name="android:background">@drawable/tab_bar_background</item> -->
+<!--         <item name="android:baselineAlignBottom">true</item> -->
+<!--         <item name="android:actionBarDivider">@color/AliceBlue</item> -->
+<!--         <item name="android:minHeight">70dip</item> -->
+<!--     </style> -->
+
+<!--     <style name="ExploreSwitzerland.ActionBar.TabBar" parent="@style/Widget.AppCompat.ActionBar.TabBar"> -->
+<!--         <item name="android:divider">@drawable/tab_divider</item> -->
+<!--         <item name="android:showDividers">none</item> -->
+<!--         <item name="android:dividerPadding">0dp</item> -->
+<!--         <item name="android:minHeight">70dip</item> -->
+
+<!--     </style> -->
+
+</resources>

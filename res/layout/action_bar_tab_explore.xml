@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tab_icon_text_explore_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:drawableTop="@drawable/explore_icn_xml"
+        android:gravity="center"
+        android:text="@string/tab_explore_cantons_a"
+        android:textColor="@color/tab_bar_text" />
+
+    <TextView
+        android:id="@+id/tab_icon_text_explore_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab_icon_text_explore_a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:gravity="center"
+        android:text="@string/tab_explore_cantons_b"
+        android:textColor="@color/tab_bar_text" />
+
+</RelativeLayout>
